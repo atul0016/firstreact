@@ -1,3 +1,135 @@
+
+.cont{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20vh 20vw;
+}
+.formbox {
+  width: 20vw;
+}
+.formbox button{
+  padding: 0.5vh 2vw;
+}
+.bodyfull{
+  display: flex;
+  justify-content: space-between;
+  padding: 30vh 10vw;
+  align-items: center;
+}
+.bodyfull img{
+  height: 60vh;
+  width: 22vw;
+
+}.bodyfull div{
+  height: 70vh;
+  width: 30vw;
+  margin-right: 8vw;
+  margin-top:6vh;
+}
+.bodyfull h1{
+  padding-bottom: 6vh;
+  font-size: 8vh;
+}.portfolio{
+  height: 140vh;
+  width: 100%;
+  display: flex;
+  padding-top: 12vh;
+  color: white;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+}.carosal{
+  display: flex;
+}.carosal div{
+  height: 80vh;
+  text-align: center;
+  width: 26vw;
+ 
+  margin: 8vh 3.5vw;
+  justify-content: space-around;
+}.carosal div{display:flex;
+  align-items: center;
+}
+.carosal a{
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  text-decoration: none;}
+
+
+.c1{
+  background-image: url(/src/components/oldman.jpg);
+  background-size:cover;
+  background-position: center;
+  opacity: 0.8;
+  color: white;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transition: all 1.5s;
+
+}.c1:hover {
+  transform:scale(1.05);
+  opacity: 1;
+}
+.c2{
+  background-image: url(/src/components/places.jpg);
+  background-size:cover;
+  background-position: center;
+  opacity: 0.8;
+  color: white;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transition: all 1.5s;
+
+}.c2:hover {
+  transform:scale(1.05);
+  opacity: 1;
+}.c3{
+  background-image: url(/src/components/fashion.jpg);
+  background-size:cover;
+  background-position: center;
+  opacity: 0.8;
+  cursor: pointer;
+  color: white;
+  background-repeat: no-repeat;
+  transition: all 1.5s;
+
+}.c3:hover {
+  transform:scale(1.05);
+  opacity: 1;
+}
+
+.imagehome{
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+.navbar{
+  position: absolute;
+}
+.navbar-nav li{
+margin:0px 3vw;
+
+}
+.collapse{
+  margin-left: 35vw;
+  
+  }
+.phtgr{
+  position: absolute;
+  top: 30vh;
+  right: 10vw;
+}.phtgr h1{
+  font-size: 8vh;
+  font-weight: 500;
+}.phtgr span{
+  font-size: 3.6vh;
+  font-weight: lighter;
+  margin-right: 0.7vw;
+  ;
+}
 .App {
   text-align: center;
 }
